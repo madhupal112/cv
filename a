@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Professional CV - Your Name</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      background: #fff;
+      padding: 30px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    h1, h2, h3 {
+      margin-top: 0;
+    }
+
+    .header {
+      text-align: center;
+      border-bottom: 2px solid #333;
+      padding-bottom: 10px;
+    }
+
+    .header h1 {
+      font-size: 2.5em;
+      margin: 0;
+    }
+
+    .header p {
+      font-size: 1em;
+      color: #666;
+    }
+
+    .section {
+      margin-bottom: 30px;
+    }
+
+    .section h2 {
+      color: #333;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 5px;
+      margin-bottom: 15px;
+    }
+
+    .job-title {
+      font-weight: bold;
+    }
+
+    .job-date {
+      float: right;
+      color: #888;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    .contact-info {
+      text-align: center;
+      margin-top: 10px;
+      font-size: 0.95em;
+    }
+
+    .contact-info a {
+      color: #333;
+      text-decoration: none;
+    }
+
+    .skills span {
+      display: inline-block;
+      background: #e0e0e0;
+      padding: 5px 10px;
+      margin: 5px 5px 0 0;
+      border-radius: 5px;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="header">
+      <h1>khushboo</h1>
+      <p>Professional Title | Location | <a href="mailto:you@example.com">khushboo123@g.com</a> | +123 456 7890</p>
+    </div>
+
+    <div class="section">
+      <h2>Profile</h2>
+      <p>
+        Experienced [Your Profession] with a strong background in [industry/skills]. Passionate about delivering results and continuous improvement.
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>Experience</h2>
+      <p><span class="job-title">Senior Role – Company Name</span> <span class="job-date">2020 – Present</span></p>
+      <ul>
+        <li>Led team of X in Y project.</li>
+        <li>Increased performance by Z% through [method/tool].</li>
+      </ul>
+
+      <p><span class="job-title">Previous Role – Company Name</span> <span class="job-date">2017 – 2020</span></p>
+      <ul>
+        <li>Managed A, improved B, launched C.</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Education</h2>
+      <p><strong>Degree Name</strong>, University Name — Year</p>
+      <p><strong>Certification</strong>, Institution — Year</p>
+    </div>
+
+    <div class="section">
+      <h2>Skills</h2>
+      <div class="skills">
+        <span>Project Management</span>
+        <span>JavaScript</span>
+        <span>Python</span>
+        <span>Communication</span>
+        <span>Team Leadership</span>
+      </div>
+    </div>
+
+    <div class="section contact-info">
+      <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></p>
+      <p>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></p>
+    </div>
+  </div>
+
+</body>
+</html>
